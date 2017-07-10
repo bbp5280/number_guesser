@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Number Guesser - Ben Porter</title>
+
+    <link rel="stylesheet" href="main3.css" type="text/css">
+  </head>
+
+  <body>
+    <header>
+        <h1>Number <span class= "guesserh1">Guesser</span></h1>
+    </header>
+    <section>
+      <form class="" action="index.html" method="post">
+        <p class="range-instructions">Enter your own range:</p>
+        <label>Minimum #
+          <input type="text" name="user-min" value="0" placeholder="Min" class="min-user" id="user-min">
+        </label>
+        <label>Maximum #
+          <input type="text" name="user-max" value="0" placeholder="Max" class="max-user" id="user-max">
+        </label>
+        <button type="button" name="enter-max-min" class="max-min" id="min-max">Enter</button>
+        <input type="text" name="enteredvalue" value="" placeholder="Enter your guess" class="guessinput" id="enteredguess" >
+          <br />
+        <button type="button" name="guessbutton" class = "topguess" id="guessbutton">Guess</button>
+          <input type="reset" value="Clear" class="botton-clear" id="clear-botton">
+        <p class="lastguess" id="your-text"></p>
+        <p class="number" id="last-guess"></p>
+        <p class="feedback" id="high-low"></p>
+        <button type="button" name="increase-range" class="max-min" id="increase-range">Expand your range</button>
+        <button type="button" name="resetbutton" class="resetbutton" id="reset">Reset</button>
+      </form>
+    <script src="script6.js"></script>
+    </section>
+  </body>
+
+</html>
